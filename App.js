@@ -7,11 +7,10 @@
  */
 
  import React from 'react';
- import Main from './src/navigation/home'
+ import Main from './src/navigation/mindfullness'
  import { LogBox } from 'react-native';
  
-const App= () => {  // Ignore log notification by message
-  LogBox.ignoreAllLogs();
+const App= () => {   
   return (
     <Main/>
   );
