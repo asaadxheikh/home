@@ -7,7 +7,7 @@
  */
 
  import React from 'react';
- import Main from './src/navigation/mindfullness'
+ import Main from './src/navigation'
  import { LogBox } from 'react-native';
  
 const App= () => {   

@@ -69,6 +69,7 @@ const App = ({ navigation }) => {
                             name='left'
                             size={20}
                             color="#fff"
+                            onPress={()=>navigation.goBack()}
 
                         />
 

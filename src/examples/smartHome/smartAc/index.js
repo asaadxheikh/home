@@ -28,11 +28,11 @@ import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons'
 import AntDesign from 'react-native-vector-icons/AntDesign'
 import Entypo from 'react-native-vector-icons/Entypo'
 
-import Smoke from '../../components/smoke';
-import Steam from '../../components/steam';
+import Smoke from '../../../components/smoke';
+import Steam from '../../../components/steam';
 import Slider from '@react-native-community/slider';
 
-import Control from '../../components/control' 
+import Control from '../../../components/control' 
  
 
 

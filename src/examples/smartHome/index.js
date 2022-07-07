@@ -3,8 +3,8 @@
 import 'react-native-gesture-handler';
 import React, { useEffect } from 'react'; 
 
-import Home from '../../views/home' 
-import SmartAc from '../../views/smartAc' 
+import Home from './home' 
+import SmartAc from '../smartHome/smartAc' 
 
 
 import { NavigationContainer } from '@react-navigation/native';
@@ -14,8 +14,7 @@ const Stack = createStackNavigator();
 
 const App = () => {
    
-  return(
-    <NavigationContainer> 
+  return( 
       <Stack.Navigator  screenOptions={
         {
           headerShown:false
@@ -23,8 +22,7 @@ const App = () => {
       }>
       <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="smartac" component={SmartAc} /> 
-    </Stack.Navigator>
-      </NavigationContainer>
+    </Stack.Navigator> 
     
   )
   
