@@ -1,0 +1,3 @@
+export default dd= {
+    paragragph:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien eget. Fusce id velit ut tortor pretium viverra. Montes nascetur ridiculus mus mauris vitae ultricies. Est ultricies integer quis auctor elit. Dignissim enim sit amet venenatis urna cursus eget. Donec ultrices tincidunt arcu non sodales neque sodales ut etiam. Vitae sapien pellentesque habitant morbi tristique senectus et netus. Diam maecenas ultricies mi eget mauris pharetra et ultrices.'
+}

@@ -6,6 +6,8 @@ import React, { useEffect } from 'react';
 import HomeSecurity from '../examples/securityCamera'
 import Meditation from '../examples/mindfull/mindfullness'
 import SmartHome from '../examples/smartHome'
+import Amazing_react_native from '../examples/Amazing_react_native'
+import Grid from '../examples/grid_magnification'
  
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -27,6 +29,8 @@ const App = () => {
       <Stack.Screen name="home_security" component={HomeSecurity} />  
       <Stack.Screen name="meditation" component={Meditation} />  
       <Stack.Screen name="smart_home" component={SmartHome} />  
+      <Stack.Screen name="amazing_react_native" component={Amazing_react_native} />  
+      <Stack.Screen name="grid" component={Grid} />  
     </Stack.Navigator>
       </NavigationContainer>
     
@@ -36,6 +40,16 @@ const App = () => {
 
 const screens=
     [
+        
+        {
+            name:'✌🏻 Grid Magnification',
+            route:'grid',
+        },
+        {
+            name:'🫠 Amazing React Native',
+            route:'amazing_react_native',
+        },
+        
         {
             name:'✌🏻 Home Security App',
             route:'home_security',

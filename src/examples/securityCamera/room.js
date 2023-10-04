@@ -11,7 +11,7 @@ import {
     Gesture,
     GestureDetector,
     GestureHandlerRootView,
-  } from 'react-native-gesture-handler';
+  } from 'react-native-gesture-handler'; 
   import Animated, {
     Extrapolate,
     interpolate,
